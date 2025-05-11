@@ -1,0 +1,43 @@
+Implementing Abstract Data Types with Linked Lists, and implementing Merge Sort.
+
+                Goals:
+
+                                -review abstract data types such as stacks, queues, and priority queues.
+
+                                -implement the fast sorting algorithm Merge Sort
+
+                                -review programming with linked data structures
+
+                                -apply big-Oh analysis to your methods
+
+                                -review c++ templated classes (the priorityQueueLL class must be a template)
+
+                Turn-in:  Submit your source code to blackboard, along with a document comparing the running time of your two sorting algorithms.
+
+ 
+
+1.       Implement the stack, queue, and priority queue data structures with a linked list implementation to get the given test code in driver.cpp to work properly.  Include the big-Oh run time of each method stated in comments above the method.
+
+ 
+
+driver.cpp
+
+stackLL.h
+
+queueLL.h
+
+priorityQueueLL.h
+
+ 
+
+2.       Linked lists and merge sort:  Implement the methods “split”, “merge”, “slowSort”, and “mergeSort” as described in the following test file.   slowSort can be bubbleSort or selectionSort (or some other sort that is not mergeSort), and mergeSort should use the split and merge methods to implement a O(n log n) Merge Sort.  Apply both sorting algorithms to sort whale.txt and write the output to slowSortedWhale.txt and mergeSortedWhale.txt respectively.  Time each sort with timing code and include the running times with your submission.
+
+ 
+
+splitMerge.cpp
+
+whale.txt
+
+ 
+
+ 
